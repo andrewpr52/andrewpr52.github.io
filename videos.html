@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrew Rodeghero">
+    <title>arodSG</title>
+    <link rel="stylesheet" href="arodsg.css" type="text/css">
+</head>
+
+<body>
+
+<script>
+function alphaSort(){
+	alert("alphaSort executed");
+	var alphabeticallyOrderedDivs = $('.small_vid_container').sort(function(a, b) {
+		return String.prototype.localeCompare.call($(a).data('id').toLowerCase(), $(b).data('id').toLowerCase());
+	});
+	
+	var container = $("#container2");
+	container.detach().empty().append(alphabeticallyOrderedDivs);
+	$('body').append(container);
+}
+ </script>
+
+	<div class="logo2">
+		<a href="./index.html">
+			<center><img src="logo_trans.png" alt="arodSG"></center>
+		</a>
+	</div>
+	<ul><strong>
+		<li><a href="./index.html">Home</a></li>
+		<li><a class = "active"
+			href="./videos.html">Videos</a></li>
+		<li><a href="./music.html">Original Music</a></li>
+		<li><a href="./about.html">About</a></li></strong>
+	</ul>
+	<br>
+	<ul>
+		<li><a href="javascript:alphaSort();">Alphabetical</a>
+		<li><a href="#date" class="categorybutton">Upload Date</a>
+	</ul>
+	<br><br>
+	
+	<div id="container2" class="container2">
+	
+		<div data-id="War_Machine" data-video-date="09_08_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=FmtLyvtKu2c" target="_blank">War Machine by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/FmtLyvtKu2c">
+			</iframe>
+		</div>
+	
+		<div data-id="You_Give_Love_A_Bad_Name" data-video-date="06_26_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=YBV1cBDaat8" target="_blank">You Give Love A Bad Name by Bon Jovi</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/YBV1cBDaat8">
+			</iframe>
+		</div>
+		
+		<div data-id="Rock_Steady" data-video-date="05_31_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=ODGeMW2wmE4" target="_blank">Rock Steady by Bad Company</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/ODGeMW2wmE4">
+			</iframe>
+		</div>
+		
+		<div data-id="Home_Sweet_Home" data-video-date="04_25_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=OyMq0-M4QBo" target="_blank">Home Sweet Home by Motley Crue</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/OyMq0-M4QBo">
+			</iframe>
+		</div>
+		
+		<div data-id="Rock_And_Roll_Aint_Noise" data-video-date="02_17_17_2" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=buS6UCUUtM4" target="_blank">Rock And Roll Ain't Noise Pollution by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/buS6UCUUtM4">
+			</iframe>
+		</div>
+		
+		<div data-id="Some_Sin_for_Nuthin" data-video-date="02_17_17_1" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=1om3OiUJJrY" target="_blank">Some Sin for Nuthin' by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/1om3OiUJJrY">
+			</iframe>
+		</div>
+		
+		<div data-id="Wish_You_Were_Here" data-video-date="01_15_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=68x_PLBTtO4" target="_blank">Wish You Were Here by Pink Floyd</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/68x_PLBTtO4">
+			</iframe>
+		</div>
+		
+		<div data-id="Rock_N_Roll_Train" data-video-date="01_11_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=szi5YTncXMk" target="_blank">Rock N Roll Train by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/szi5YTncXMk">
+			</iframe>
+		</div>
+		
+		<div data-id="Dirty_Deeds_Done_Dirt" data-video-date="01_07_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=NhWyVrnYSO8" target="_blank">Dirty Deeds Done Dirt Cheap by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/NhWyVrnYSO8">
+			</iframe>
+		</div>
+		
+		<div data-id="Goodbye_and_Good_Riddance" data-video-date="01_01_17" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=atBFcU6EAeA" target="_blank">Goodbye and Good Riddance to Bad Luck by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/atBFcU6EAeA">
+			</iframe>
+		</div>
+		
+		<div data-id="Another_Brick_in_the_Wall" data-video-date="12_28_16" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=0V4A1i4zCC4" target="_blank">Another Brick in the Wall (Pt 2) by Pink Floyd</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/0V4A1i4zCC4">
+			</iframe>
+		</div>
+		
+		<div data-id="Mistress_for_Christmas" data-video-date="12_26_16" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=EIygv8_QWv0" target="_blank">Mistress for Christmas by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/EIygv8_QWv0">
+			</iframe>
+		</div>
+		
+		<div data-id="TNT" data-video-date="12_23_16" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=hxFGYEJ74JQ" target="_blank">TNT by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/hxFGYEJ74JQ">
+			</iframe>
+		</div>
+		
+		<div data-id="Back_in_Black" data-video-date="12_19_16" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=PsumKtMyYe8" target="_blank">Back in Black by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/PsumKtMyYe8">
+			</iframe>
+		</div>
+		
+		<div data-id="Hells_Bells" data-video-date="10_14_16" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=Ac1cQQhK_40" target="_blank">Hells Bells by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/Ac1cQQhK_40">
+			</iframe>
+		</div>
+		
+		<div data-id="Fire_Your_Guns" data-video-date="07_18_16" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=KQqDe0k_DV4" target="_blank">Fire Your Guns by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/KQqDe0k_DV4">
+			</iframe>
+		</div>
+		
+		<div data-id="Feel_the_Sound" data-video-date="07_11_16" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=yXO7P1-5yf0" target="_blank">Feel the Sound (Original Song)</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/yXO7P1-5yf0">
+			</iframe>
+		</div>
+		
+		<div data-id="Rock_or_Bust" data-video-date="12_18_15" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=L80NCZQkEYM" target="_blank">Rock or Bust by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/L80NCZQkEYM">
+			</iframe>
+		</div>
+		
+		<div data-id="Rock_Show" data-video-date="09_09_15" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=G3_W2gtM_i8" target="_blank">Rock Show (Original Song)</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/G3_W2gtM_i8">
+			</iframe>
+		</div>
+		
+		<div data-id="Hard_as_a_Rock" data-video-date="10_14_14" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=JsV0-zYpjpg" target="_blank">Hard as a Rock by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/JsV0-zYpjpg">
+			</iframe>
+		</div>
+		
+		<div data-id="867-5309" data-video-date="08_31_14" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=hPhKKklC6s0" target="_blank">867-5309 (Jenny) by Tommy Tutone</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/hPhKKklC6s0">
+			</iframe>
+		</div>
+		
+		<div data-id="You_Shook_Me_All_Night" data-video-date="08_10_14" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=2YCo-Afzuk0" target="_blank">You Shook Me All Night Long by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/2YCo-Afzuk0">
+			</iframe>
+		</div>
+		
+		<div data-id="Highway_to_Hell" data-video-date="08_08_14" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=QNsbVA-DXcE" target="_blank">Highway to Hell by AC/DC</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/QNsbVA-DXcE">
+			</iframe>
+		</div>
+		
+		<div data-id="Livin_on_a_Prayer" data-video-date="08_02_14" class="small_vid_container">
+			<p><strong><a href="https://www.youtube.com/watch?v=DaSDk3PKIR4" target="_blank">Livin' on a Prayer by Bon Jovi</a></strong></p>
+			<iframe width="420" height="280"
+				src="https://www.youtube.com/embed/DaSDk3PKIR4">
+			</iframe>
+		</div>		
+		
+	</div>	
+	
+	<div class="footer">
+		<p><center>Contact: <a href="mailto:arodsg52@gmail.com?subject=Contact%20arodSG" target="_top">arodsg52@gmail.com</a>
+		&emsp; Copyright © 2017 Andrew Rodeghero</center></p>
+	</div>
+</body>
+
+</html>

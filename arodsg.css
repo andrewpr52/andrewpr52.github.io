@@ -1,0 +1,186 @@
+html {
+    background-color: #e0e0e0;
+    color: black;
+    font-family: sans-serif;
+	background-image: url("rs_cover_25.jpg");
+	background-repeat: repeat;
+}
+
+p a:link {
+	color: #e03e3e;
+}
+p a:visited {
+	color: #931111;
+}
+p a:visited:hover {
+	color: #e03e3e;
+}
+
+.logo {
+	width:355px;
+	height:200px;
+	margin: 0 auto;
+	animation-name: fadein;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+.logo2 {
+	width:355px;
+	height:200px;
+	margin: 0 auto;
+}
+img {
+	padding: 0;
+	width:355px;
+	height:200px;
+}
+
+ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	font-size: 0;
+}
+li {
+	background-color: #f4f4f4;
+	display: inline-block;
+	list-style: none;
+}
+li a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 16px;
+}
+li a:hover {
+	color: white;
+	animation-name: nav_fadein;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
+}
+li a:active {
+    background-color: #e03e3e;
+    color: white;
+}
+li a:target {
+    background-color: #e03e3e;
+    color: white;
+}
+
+.container {
+	width: 100%;
+	opacity: 0;
+	animation-name: fadein;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
+	animation-delay: 1s;
+}
+.container2 {
+	width: 100%;
+	opacity: 0;
+	animation-name: fadein;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+}
+.text_container {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -15px;
+	text-align: center;
+	opacity: 0;
+	animation-name: fadein;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+}
+.small_text_container {
+	width: 20%;
+
+	text-align: center;
+	float: left;
+}
+.text_tables {
+	width: 75%;
+	margin: 0 auto;
+	margin-top: -10px;
+	opacity: 0;
+	animation-name: fadein;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+}
+.vid_container {
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+.small_vid_container {
+	text-align: center;
+	width: 33.33%;
+	float: left;
+}
+.vid_container iframe {
+	background-color: black;
+	border: 10px solid #e03e3e;
+	margin-bottom: 20px;
+}
+.small_vid_container iframe {
+	background-color: black;
+	border: 5px solid #e03e3e;
+	margin-bottom: 20px;
+}
+
+.footer {
+	width: 100%;
+	float: left;
+	line-height: 50%;
+	font-size: 10px;
+	margin-top: -20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .container > div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .container2 > div {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container2 > div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .text_tables > div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .small_text_container > div {
+    width: 100%;
+  }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes nav_fadein {
+	to { background-color: #c12a2a; }
+}
