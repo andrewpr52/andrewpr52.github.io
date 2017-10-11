@@ -10,9 +10,9 @@ html {
 	width:355px;
 	height:200px;
 	margin: 0 auto;
-	animation-name: fadein;
-	animation-timing-function: ease-in;
-	animation-duration: 1s;
+	#animation-name: fadein;
+	#animation-timing-function: ease-in;
+	#animation-duration: 1s;
 }
 .logo2 {
 	width:355px;
@@ -66,20 +66,20 @@ li a:target {
 .container {
 	width: 100%;
 	opacity: 0;
-	animation-name: fadein;
-	animation-timing-function: ease-in;
-	animation-fill-mode: forwards;
-	animation-duration: 1s;
-	animation-delay: 1s;
+	#animation-name: fadein;
+	#animation-timing-function: ease-in;
+	#animation-fill-mode: forwards;
+	#animation-duration: 1s;
+	#animation-delay: 1s;
 }
 .container2 {
 	width: 100%;
 	opacity: 0;
-	animation-name: fadein;
-	animation-timing-function: ease-in;
-	animation-fill-mode: forwards;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
+	#animation-name: fadein;
+	#animation-timing-function: ease-in;
+	#animation-fill-mode: forwards;
+	#animation-duration: 1s;
+	#animation-delay: 0.5s;
 }
 .text_container {
 	width: 100%;
@@ -87,11 +87,11 @@ li a:target {
 	margin-top: -15px;
 	text-align: center;
 	opacity: 0;
-	animation-name: fadein;
-	animation-timing-function: ease-in;
-	animation-fill-mode: forwards;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
+	#animation-name: fadein;
+	#animation-timing-function: ease-in;
+	#animation-fill-mode: forwards;
+	#animation-duration: 1s;
+	#animation-delay: 0.5s;
 }
 .small_text_container {
 	width: 20%;
@@ -103,11 +103,11 @@ li a:target {
 	margin: 0 auto;
 	margin-top: -10px;
 	opacity: 0;
-	animation-name: fadein;
-	animation-timing-function: ease-in;
-	animation-fill-mode: forwards;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
+	#animation-name: fadein;
+	#animation-timing-function: ease-in;
+	#animation-fill-mode: forwards;
+	#animation-duration: 1s;
+	#animation-delay: 0.5s;
 }
 .vid_container {
 	text-align: center;
