@@ -9,6 +9,32 @@
 		p a:link {color: #e03e3e;}
 		p a:visited {color: #931111;}
 		p a:visited:hover {color: #e03e3e;}
+		
+		@media screen and (max-width: 1050px) {
+		.container > div {width: 100%;}
+		}
+		@media screen and (max-width: 1350px) {
+		.container2 > div {width: 50%;}
+		}
+		@media screen and (max-width: 950px) {
+		.container2 > div {width: 100%;}
+		}
+
+		@media screen and (max-width: 1000px) {
+		.text_tables > div {width: 100%;}
+		}
+		@media screen and (max-width: 1000px) {
+		.small_text_container > div {width: 100%;}
+		}
+
+		@keyframes fadein {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+		}
+
+		@keyframes nav_fadein {
+		to { background-color: #c12a2a; }
+		}
 	</style>
 </head>
 
