@@ -136,10 +136,8 @@ li a:target {
 	margin-bottom: 20px;
 }
 
-.social_buttons iframe {
-	padding: 10px;
-}
-.g-ytsubscribe {
+.social_button {
+	display: inline-block;
 	padding: 10px;
 }
 
