@@ -139,10 +139,9 @@ li a:target {
 .social_button {
 	display: inline-block;
 	padding: 10px;
-	margin-top: -20px;
 }
 .g-ytsubscribe{
-		margin-top: -10px;
+	margin-top: -10px;
 }
 
 .footer {
