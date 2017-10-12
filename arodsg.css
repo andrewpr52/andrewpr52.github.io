@@ -6,6 +6,16 @@ html {
 	background-repeat: repeat;
 }
 
+p a:link {
+	color: #e03e3e;
+}
+p a:visited {
+	color: #931111;
+}
+p a:visited:hover {
+	color: #e03e3e;
+}
+
 .logo {
 	width:355px;
 	height:200px;
@@ -124,6 +134,10 @@ li a:target {
 	background-color: black;
 	border: 5px solid #e03e3e;
 	margin-bottom: 20px;
+}
+
+.social_buttons {
+	background-color: transparent;
 }
 
 .footer {
