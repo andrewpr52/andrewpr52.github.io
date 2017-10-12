@@ -136,7 +136,8 @@ li a:target {
 	margin-bottom: 20px;
 }
 
-.social_buttons {
+.g-ytsubscribe {
+	top: -10px;
 }
 
 .footer {
