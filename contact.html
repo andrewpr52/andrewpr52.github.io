@@ -16,15 +16,10 @@
 	<ul><strong>
 		<li><a href="./index.html">Home</a></li>
 		<li><a href="./videos.html">Videos</a></li>
+		<li><a href="./music.html">Original Music</a></li>
 		<li><a class = "active"
-			href="./music.html">Original Music</a></li>
-		<li><a href="./about.html">About</a></li>
+			href="./about.html">About</a></li>
 		<li><a href="./contact.html">Contact</a></li></strong>
-	</ul>
-	<br>
-	<ul>
-		<li><a class = "active"
-			href="./videos/rockshow.html">Rock Show</a></li>
 	</ul>
 	<br>
 	<ul>
@@ -40,20 +35,27 @@
 		</div>
 	</ul>
 	<br><br>
-	<div class="container2">
-		<div class="small_vid_container">
-			<p><strong><a href="https://www.youtube.com/watch?v=G3_W2gtM_i8" target="_blank">Rock Show (Original Song)</a></strong></p>
-			<iframe width="420" height="280"
-				src="https://www.youtube.com/embed/G3_W2gtM_i8">
-			</iframe>
+		<div class="text_container">
+
+			<form action="/submit_form.php">
+				<div class="form_top">
+					<label for="name">Your Name</label>
+					<input type="text" id="name" name="name" placeholder="Name">
+				
+					<label for="reason">Contact Reason</label>
+					<select id="reason" name="reason">
+						<option value="general">General Inquiry</option>
+						<option value="business">Business Inquiry</option>
+						<option value="mfeedback">Music Feedback</option>
+						<option value="wfeedback">Website Feedback</option>
+					</select>
+				</div>
+				<label for="message">Message</label>
+				<textarea id="message" name="message" placeholder="Enter your message..." style="height:100px"></textarea>
+				
+				<input type="submit" value="Submit">
+			</form>
 		</div>
-		<div class="small_vid_container">
-			<p><strong><a href="https://www.youtube.com/watch?v=yXO7P1-5yf0" target="_blank">Feel the Sound (Original Song)</a></strong></p>
-			<iframe width="420" height="280"
-				src="https://www.youtube.com/embed/yXO7P1-5yf0">
-			</iframe>
-		</div>
-	</div>
 	
 	<div class="footer">
 		<p><center>Contact: <a href="mailto:andrew@arodsg.com?subject=Contact%20arodSG" target="_top">andrew@arodsg.com</a>
