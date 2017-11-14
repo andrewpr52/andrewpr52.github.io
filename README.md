@@ -1,5 +1,5 @@
 # andrewpr52.github.io
-Repo for [arodSG](arodsg.com) website.
+Repo for [arodSG](http://www.arodsg.com) website.
 
 TODO:
 
